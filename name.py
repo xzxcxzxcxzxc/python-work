@@ -11,7 +11,7 @@ c = input('输入要更改的格式的后缀名')
 print(path)
 for f in files:
     confirm = input('是否执行（Y/N）')
-    if confirm.lower() == N:
+    if confirm.lower() == 'n':
         break
     print(f)
     path1=path + '\\' + f
